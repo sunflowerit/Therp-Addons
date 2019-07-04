@@ -6,7 +6,7 @@ import re
 from email.utils import COMMASPACE
 
 from odoo import api, models
-from odoo.addons.base.ir.ir_mail_server import extract_rfc2822_addresses
+from odoo.addons.base.models.ir_mail_server import extract_rfc2822_addresses
 
 
 ADDRESS_REPLACEMENTS = {
